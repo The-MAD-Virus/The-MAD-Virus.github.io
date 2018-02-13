@@ -1,0 +1,27 @@
+markdown: kramdown
+highlighter: rouge
+
+exclude: ["LICENSE.md", "README.md"]
+
+timezone: Pacific/Noumea
+# Site settings
+title: The M.A.D. Virus
+description: I thought what I'd do was, I'd pretend I was one of those deaf-mutes
+lang: fr_FR
+
+google_analytics_id: UA-113880820-1
+
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-mentions
+
+exclude:
+  - README.md
+  - .gitignore
+
+theme: jekyll-theme-merlot
